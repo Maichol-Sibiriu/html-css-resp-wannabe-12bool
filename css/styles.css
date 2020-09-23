@@ -1,6 +1,25 @@
 body{
   text-align: center;
 }
-.box{
-  background-color: pink;
+img{
+ height: 150px;
+ margin-bottom: 25px;
+}
+main,
+footer{
+  background-color: #f9f9f9;
+}
+.ico-footer{
+  height: 250px;
+  margin: 0 auto;
+  background-color: #428bca;
+  border-radius: 50%;
+}
+
+.row::after{
+  content: "";
+  height: 2px;
+  background-color: grey;
+  display: block;
+  margin-top: 10px;
 }
